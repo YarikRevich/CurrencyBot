@@ -80,30 +80,4 @@ def final():
 
 
 
-
-
-    #parce()
-    #conn = sqlite3.connect("sqlfile1.db")
-
-    #cur = conn.cursor()
-    #cur.execute("DROP TABLE currency")
-
-    #cur.execute("CREATE TABLE currency(curr TEXT,curs TEXT,curs_data TEXT)")
-
-    
-    #cur.execute("INSERT INTO currency(curr) VALUES (?)", [data[0]])
-    #cur.execute("INSERT INTO currency(curs) VALUES (?)", (data[1], ))
-    #cur.execute("INSERT INTO currency(curs_data) VALUES (?)", (data[2], ))
-
-
-
-    #conn.commit()
-
-
-
-    #cur.close()
-    #conn.close()
-
-#Виклик функції
-
 final()
